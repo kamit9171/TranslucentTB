@@ -1,6 +1,6 @@
 #include "appvisibilitysink.hpp"
 
-AppVisibilitySink::AppVisibilitySink(bool &startOpened) : m_startOpenedRef(startOpened) { }
+AppVisibilitySink::AppVisibilitySink(bool &startOpened) : m_startOpenedRef(startOpened){ }
 
 IFACEMETHODIMP AppVisibilitySink::LauncherVisibilityChange(BOOL currentVisibleState)
 {
